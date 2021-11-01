@@ -11,6 +11,6 @@ jobs:
         env:
 #           github_token: ${{ secrets.github_token }}
 #           reporter: github-pr-review # Change reporter.
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
