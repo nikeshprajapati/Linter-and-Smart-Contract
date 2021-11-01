@@ -1,5 +1,5 @@
 name: solhint-ci
-on: [pull_request]
+on: [push]
 jobs:
   solhint:
     name: runner / solhint
