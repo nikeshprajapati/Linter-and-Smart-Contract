@@ -12,7 +12,7 @@ jobs:
         with:
             github_token: ${{ secrets.GITHUBTOKEN }}
             reporter: github-pr-review # Change reporter.
-            solhint_input: 'contracts/*.sol'
+            solhint_input: 'contracts/Greeter.sol'
 
 #           VALIDATE_ALL_CODEBASE: true
 #           DEFAULT_BRANCH: main
