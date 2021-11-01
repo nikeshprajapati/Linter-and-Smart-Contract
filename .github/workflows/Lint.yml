@@ -1,8 +1,8 @@
-name: solhint-ci
+name: Linter-CI
 on: [push]
 jobs:
   solhint:
-    name: runner / solhint
+    name: Run the solhint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -13,7 +13,3 @@ jobs:
             github_token: ${{ secrets.GITHUBTOKEN }}
             reporter: github-pr-review # Change reporter.
             solhint_input: 'contracts/Greeter.sol'
-
-#           VALIDATE_ALL_CODEBASE: true
-#           DEFAULT_BRANCH: main
-          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
