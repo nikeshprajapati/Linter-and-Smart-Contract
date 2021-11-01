@@ -10,9 +10,10 @@ jobs:
       - name: Run solhint with contracthsark
         uses: contractshark/inject-solhint-ci@1.0.0+0
         with:
+            github_token: ${{ secrets.github_token }}
+            reporter: github-pr-review # Change reporter.
             solhint_input: '.sol'
-#           github_token: ${{ secrets.github_token }}
-#           reporter: github-pr-review # Change reporter.
+
 #           VALIDATE_ALL_CODEBASE: true
 #           DEFAULT_BRANCH: main
           #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
