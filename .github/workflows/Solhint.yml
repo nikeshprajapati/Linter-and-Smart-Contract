@@ -10,4 +10,4 @@ jobs:
       - name: Run Solhint linter
         shell: pwsh
         run: |
-          yarn add --dev solhint-ci | solhint --version
+          .\SolhintScript.ps1
