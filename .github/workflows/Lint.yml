@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run solhint with contracthsark
-        run: .\sample.ps1
+      - name: Run linter in Greeter
+        shell: pwsh
+        run: |
+          .\sample.ps1
