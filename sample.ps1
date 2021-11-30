@@ -1,4 +1,4 @@
 npm install -g ethlint
 solium -V
 solium --init
-solium -d contracts/
+solium -f contracts/Greeter.sol
