@@ -1,4 +1,4 @@
 npm install -g ethlint
 solium -V
 solium --init
-solium -f contracts/
+solium -d contracts/
