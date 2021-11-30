@@ -1,7 +1,7 @@
 pragma solidity ^0.4.0;
 
 contract Greeter  {
-					string public yourName;  // data
+    string public yourName;  // data
 
 	/* This runs when the contract is executed */
     function Greeter() public {
