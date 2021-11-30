@@ -5,5 +5,5 @@ Write-Host "Checking Solium Version"
 solium -V
 solium --init
 Write-Host "Running the contracts"
-#solium -d contracts/
-solium -f contracts/Greeter.sol
+solium -d contracts/
+#solium -f contracts/Greeter.sol
